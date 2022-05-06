@@ -1,3 +1,10 @@
+- [Tuning query](#tuning-query)
+  * [I-The rules:](#i-the-rules-)
+    + [1.1 Only Select the data that you really need:](#11-only-select-the-data-that-you-really-need-)
+    + [1.2 LIMIT the use of nested queries](#12-limit-the-use-of-nested-queries)
+    + [1.3 NO "HAVING CLAUSE" when only "WHERE" is enough](#13-no--having-clause--when-only--where--is-enough)
+    + [1.4 Using ```clustering indexes``` to join](#14-using----clustering-indexes----to-join)
+    + [1.5 Note about some system problems:](#15-note-about-some-system-problems-)
 
 # Tuning query 
 ## I-The rules:
